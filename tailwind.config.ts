@@ -39,6 +39,17 @@ const config: Config = {
         '130%': '1.3',
         '160%': '1.6',
       },
+      width: {
+        '119': '476px',
+        '147': '588px',
+      },
+      maxWidth: {
+        '119': '476px',
+        '147': '588px',
+      },
+      backgroundImage: {
+        'hero-bg': 'url(/heroBackground.svg)',
+      },
     },
   },
   plugins: [
@@ -48,19 +59,19 @@ const config: Config = {
         '.title-xl': {
           fontSize: '48px',
           lineHeight: '130%',
-          fontWeight: 'extrabold',
+          fontWeight: '800',
           fontFamily: 'Baloo2',
         },
         '.title-l': {
           fontSize: '32px',
           lineHeight: '130%',
-          fontWeight: 'extrabold',
+          fontWeight: '800',
           fontFamily: 'Baloo2',
         },
         '.title-m': {
           fontSize: '24px',
           lineHeight: '130%',
-          fontWeight: 'extrabold',
+          fontWeight: '800',
           fontFamily: 'Baloo2',
         },
         '.title-s': {

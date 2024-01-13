@@ -14,7 +14,7 @@ const baloo = Baloo_2({
 const roboto = Roboto({
   subsets: ['latin'],
   variable: '--font-roboto',
-  weight: ['300', '700'],
+  weight: ['300', '400', '500', '700', '900'],
 })
 
 export default function RootLayout({
